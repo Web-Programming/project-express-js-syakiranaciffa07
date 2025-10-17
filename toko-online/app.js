@@ -11,7 +11,7 @@ var productRouter = require("./app_toko_online/routes/product"); //letakkan di a
 var engine = require('ejs-blocks'); //menggunakan ejs block
 var app = express();
 var apiProductRouter = require("./app_toko_online/routes/api/product");
-require('./app_toko_online/models')
+require('../toko-online/app_toko_online/models/db')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_toko_online', 'views')); //perbaikan 1
