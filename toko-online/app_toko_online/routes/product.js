@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-var Product = require("../models/product");
+var Product = require("../models/products");
 
 // Route untuk menampilkan semua produk
 router.get("/all", async function (req, res, next) {
